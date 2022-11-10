@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+main {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #232024;
+}
+.reccomend{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  background-color: #2d282f;
+  color: white;
+  margin-top: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+}
+
+.reccomend > h2 {
+  display: block;
+  max-height: 200px;
+  padding: 20px 30px
+}
+
+footer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #232024;
+}
+
+copy-right{
+  background-color: #2d282f;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+@media screen and (max-width: 500px){
+  .reccomend{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #2d282f;
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+  }
+  main{
+    margin-top: -1px;
+  }
+  nav-bar{
+    margin-top: -1px;
+  }
+  footer{
+    margin: -1px 0;
+  }
+
+}
